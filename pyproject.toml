@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "native-os-dialogs"
+version = "0.1.0"
+description = "Native message boxes and file/folder browsers (Win/Linux/macOS)"
+readme = "README.md"
+license = { text = "LGPL-3.0-or-later" }
+requires-python = ">=3.8"
+authors = [{ name = "bodencrouch" }]
+dependencies = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/bodencrouch/native-os-dialogs"
+Repository = "https://github.com/bodencrouch/native-os-dialogs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
