@@ -229,4 +229,4 @@ def show_context_menu(path: str):
 
 
 if __name__ == "__main__":
-    show_context_menu(r"C:\Program Files (x86)\Steam\steamapps\common\swkotor\modules\danm15.rim")
+    show_context_menu(r"C:\Games\ExampleApp\modules\sample.dat")
